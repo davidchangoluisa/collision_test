@@ -1,0 +1,6 @@
+<launch>
+
+	<!--Launching the activate collision avoidance-->>
+	<node pkg="collision_test" type="collision_avoidance.py" name="collision_avoidance"/>
+	
+</launch>
