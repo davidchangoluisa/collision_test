@@ -29,7 +29,7 @@ This project was tested on the [UAV-ROS-Simulation](https://github.com/larics/ua
 Then run the startup script
 
 ```console
-    /uav_ws/src/collision_test/startup/.start.sh
+    ./start.sh
 ```
 This script will open a Tmuxinator session in which the fifth pane will show the status of the collision avoidance system. This session will also open RVIZ with a configuration that allows visualizing the safety radius along with the goal, collision, and scape points in the 3D space. An example of this visualization is shown below.  
  
